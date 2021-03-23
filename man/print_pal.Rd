@@ -15,7 +15,8 @@ print_pal(x, ...)
 print_pal
 }
 \examples{
+#'\donttest{
 print_pal('aqua')
-
+}
 
 }
