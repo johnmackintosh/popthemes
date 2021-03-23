@@ -1,5 +1,5 @@
 Package: popthemes
-Title: colour palettes from some 90s pop album covers.
+Title: colour palettes from some 90s pop album covers
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "John",
