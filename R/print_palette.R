@@ -9,7 +9,7 @@
 #' @importFrom grDevices rgb
 #'
 #' @examples
-#' #'\donttest{
+#'\donttest{
 #' print_pal('aqua')
 #'}
 #'
