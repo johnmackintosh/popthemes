@@ -45,8 +45,6 @@ pop_palettes <- list(
 #'
 #' @param n Number of colors desired.
 #'
-#' Some palettes contain 5 colors. Those beginning with 'rock' have 4
-#'
 #' @param type Either continuous or discrete.
 #'
 #' @return A vector of colors.
@@ -77,14 +75,5 @@ pop_palette <- function(name, n, type = c("discrete", "continuous")) {
   structure(out, class = "palette", name = name)
 }
 
-#' @export
-#' @importFrom graphics rect par image text
-#' @importFrom grDevices rgb
-print_pal <- function(x, ...) {
-  n <- length(x)
-  old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
-  on.exit(par(old))
 
-  image(1:n, 1, as.matrix(1:n), col = x,
-        ylab = "", xaxt = "n", yaxt = "n", bty = "n")
-}
+

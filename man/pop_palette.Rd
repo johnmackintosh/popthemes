@@ -12,9 +12,7 @@ pop_palette(name, n, type = c("discrete", "continuous"))
 \code{breeders}, \code{bwitched}, \code{deeelite},\code{hole},
 \code{nodoubt}, \code{sclub7}, \code{spice},\code{steps}}
 
-\item{n}{Number of colors desired.
-
-Some palettes contain 5 colors. Those beginning with 'rock' have 4}
+\item{n}{Number of colors desired.}
 
 \item{type}{Either continuous or discrete.}
 }
