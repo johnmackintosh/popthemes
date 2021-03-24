@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 
 
 <!-- badges: start -->
-
+[![R-CMD-check](https://github.com/johnmackintosh/popthemes/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/johnmackintosh/popthemes/actions/workflows/R-CMD-check.yaml)
 
 <!-- badges: end -->
 
@@ -44,7 +44,7 @@ Featuring:
 
 ## Why?
 
-Because[I've done Metallica](https://github.com/johnmackintosh/metallicaRt) and [classic rock](https://github.com/johnmackintosh/rockthemes).
+Because[ I've done Metallica](https://github.com/johnmackintosh/metallicaRt) and [classic rock](https://github.com/johnmackintosh/rockthemes).
 
 Although rockthemes has some pop acts in it as well, including No Doubt and DeeeLite, who also appear here. Don't worry about it.
 
@@ -59,8 +59,7 @@ This will probably not go to CRAN, so please install using the remotes package.
 library(popthemes)
 ```
 
-# Palettes and Themes
-
+# Palettes 
 
 ```{r aqua, fig.show = "hold",out.width = "33%"}
 pop_palette("aqua")
