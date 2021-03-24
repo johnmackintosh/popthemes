@@ -13,7 +13,7 @@
 ^README-.*\.png$
 ^pkgdown$
 pkgdown/
-
+^readme.md
 ^cran-comments\.md$
 ^\.github$
 
