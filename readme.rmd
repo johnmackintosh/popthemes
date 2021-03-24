@@ -42,7 +42,7 @@ Featuring:
 
 ## Why?
 
-Because[ I've done Metallica](https://github.com/johnmackintosh/metallicaRt) and [classic rock](https://github.com/johnmackintosh/rockthemes).
+Because [I've done Metallica](https://github.com/johnmackintosh/metallicaRt) and [classic rock](https://github.com/johnmackintosh/rockthemes).
 
 Although rockthemes has some pop acts in it as well, including No Doubt and DeeeLite, who also appear here. Don't worry about it.
 
