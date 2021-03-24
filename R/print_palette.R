@@ -11,7 +11,7 @@
 #' @examples
 #'\donttest{
 #' print_pal('aqua')
-#'}
+#' }
 #'
 print_pal <- function(x, ...) {
   n <- length(x)
