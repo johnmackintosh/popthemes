@@ -9,9 +9,9 @@ popthemes
 
 ## What?
 
-This is a collection of colour palettes based on 90s pop album covers.
-
-Some of these appeared frequently in web searches, so they must be good.
+This is a collection of colour palettes based on (mainly) 90s pop album
+covers. (The Bangles are in because ‘Hazy Shade of Winter’ absolutely
+rules)
 
 Featuring:
 
