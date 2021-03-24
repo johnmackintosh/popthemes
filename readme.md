@@ -27,7 +27,7 @@ Featuring:
 
 ## Why?
 
-Because[I’ve done
+Because[ I’ve done
 Metallica](https://github.com/johnmackintosh/metallicaRt) and [classic
 rock](https://github.com/johnmackintosh/rockthemes).
 
