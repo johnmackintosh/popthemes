@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_palettes.R
 \name{pop_palette}
 \alias{pop_palette}
-\title{Color Palettes based on 90s pop album covers}
+\title{Color Palettes based on pop album covers}
 \usage{
 pop_palette(name, n, type = c("discrete", "continuous"))
 }
@@ -20,11 +20,10 @@ pop_palette(name, n, type = c("discrete", "continuous"))
 A vector of colors.
 }
 \description{
-R package that contains color palettes based on 90s pop album covers.
+R package that contains color palettes based on pop album covers.
+See also: https://github.com/johnmackintosh/metallicaRt for metallica palettes
 }
 \details{
-See also: https://github.com/johnmackintosh/metallicaRt for metallica palettes
-
 and https://github.com/johnmackintosh/rockthemes for rock palettes
 }
 \examples{

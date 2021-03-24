@@ -7,8 +7,6 @@ pop_palettes <- list(
            "#9BC3D7", "#A67FC3", "#B03387", "#BA2874","#A53252"),
   boo = c("#B04D49", "#C06A51", "#C89B68", "#A79F62" ,"#4D6D7B",
           "#42496C", "#633D5A", "#934B63", "#A34351"),
-  # boo2 = c("#97807D", "#B69789", "C7B3A2", "#CEC9B6", "#98B9B7",
-  #          "#6A97A6", "#6F7C89", "#544E58", "#A95E71"),
   breeders = c("#792F28", "#763F25", "#856426", "#818425", "#799821",
                "#3C7135", "#5F253B", "#89172A", "#93242A"),
   bwitched = c("#B1473C", "#BB553E", "#C65B3F", "#C86141", "#D26D48",
@@ -25,14 +23,14 @@ pop_palettes <- list(
             "#ABCEDF", "#BBC2E1", "#E0BFDF", "#CC798C"),
   steps = c("#A65A57", "#D18C7E", "#F2BEA3", "#E5DFBD", "#85BACB",
             "#8895C4", "#BB6CA6", "#BA638C", "#9B535A")
+
 )
 
 
-#' Color Palettes based on 90s pop album covers
+
+#' Color Palettes based on pop album covers
 #'
-#' R package that contains color palettes based on 90s pop album covers.
-#'
-#'
+#' R package that contains color palettes based on pop album covers.
 #' See also: https://github.com/johnmackintosh/metallicaRt for metallica palettes
 #'
 #' and https://github.com/johnmackintosh/rockthemes for rock palettes
@@ -42,8 +40,8 @@ pop_palettes <- list(
 #' \code{breeders}, \code{bwitched}, \code{deeelite},\code{hole},
 #'  \code{nodoubt}, \code{sclub7}, \code{spice},\code{steps}
 #'
-#'
 #' @param n Number of colors desired.
+#'
 #'
 #' @param type Either continuous or discrete.
 #'
@@ -75,5 +73,14 @@ pop_palette <- function(name, n, type = c("discrete", "continuous")) {
   structure(out, class = "palette", name = name)
 }
 
+#' @export
+#' @importFrom graphics rect par image text
+#' @importFrom grDevices rgb
+print.palette <- function(x, ...) {
+  n <- length(x)
+  old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
+  on.exit(par(old))
 
-
+  image(1:n, 1, as.matrix(1:n), col = x,
+        ylab = "", xaxt = "n", yaxt = "n", bty = "n")
+}
