@@ -35,10 +35,10 @@ Featuring:
 - Deee Lite
 - Hole
 - No Doubt
+- Rick Astley
 - S Club 7
 - Spice Girls
 - Steps
-- A special secret palette
 
 ## Why?
 
@@ -78,15 +78,16 @@ pop_palette("deeelite")
 ```{r deeelite, fig.show = "hold",out.width = "33%"}
 pop_palette("hole")
 pop_palette("nodoubt")
-pop_palette("sclub7")
+pop_palette("rickroll")
 ```
 
 
 
 ```{r sclub, fig.show = "hold",out.width = "33%"}
+pop_palette("sclub7")
 pop_palette("spice")
 pop_palette("steps")
-pop_palette("secret")
+
 ```
 
 
@@ -108,5 +109,3 @@ project you agree to abide by its terms.
 
 See the [Contribution guide](.github/CONTRIBUTING.md)
 
-## What's the secret palette?
-See [here](https://www.pinterest.com/pin/361836151304495026/)
