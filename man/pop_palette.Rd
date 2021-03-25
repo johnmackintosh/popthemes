@@ -9,8 +9,8 @@ pop_palette(name, n, type = c("discrete", "continuous"))
 \arguments{
 \item{name}{Name of palette. Select one:
 \code{aqua}, \code{bangles}, \code{beck}, \code{boo},
-\code{breeders}, \code{bwitched}, \code{deeelite},\code{hole},
-\code{nodoubt}, \code{sclub7}, \code{spice},\code{steps}}
+\code{bwitched}, \code{deeelite},\code{hole}, \code{nodoubt},
+\code{sclub7}, \code{spice},\code{steps}, \code{secret}}
 
 \item{n}{Number of colors desired.}
 

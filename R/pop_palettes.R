@@ -5,16 +5,14 @@ pop_palettes <- list(
               "#7C708E", "#7E5876", "#7C5366", "#5F383F"),
   beck = c("#8A4736", "#C1CE7D", "#87E04D", "#92DD8E",
            "#9BC3D7", "#A67FC3", "#B03387", "#BA2874","#A53252"),
-  boo = c("#3E5588", "#75785C", "#403C51", "#C44541", "#C25570",
-          "#E4A649", "#443345", "#49534D", "#4A6362"),
-  breeders = c("#791134" ,"#9A4C66", "#BC8899", "#DDC3CC" ,"#FFFFFF",
-               "#E2E2C8", "#C6C492", "#A9A85C","#8D8B26"),
-  bwitched = c("#362A61","#685F88","#9A94B0" ,"#CCC9D7","#FFFFFF",
-               "#F3D9CE","#E8B49E", "#DD8F6E","#D26A3E"),
+  boo = c("#B04D49", "#C06A51", "#C89B68", "#A79F62" ,"#4D6D7B",
+          "#42496C", "#633D5A", "#934B63", "#A34351"),
+  bwitched = c("#40234E", "#B09B59", "#732F4D" ,"#D29965", "#5B274B",
+                "#C89C93", "#572F58", "#71773E", "#446E80"),
   deeelite = c("#365A4C", "#473D8C", "#90D044", "#DB616D", "#64403E",
                "#5E3C80", "#9C8F42", "#8F2975", "#3A5A3C"),
-  hole = c("#322C40", "#262937", "#4A5851", "#AE6DA3", "#545B42",
-           "#4F2D31", "#CEAB71", "#593E4C","#2E3A45"),
+  hole = c("#67332C" ,"#904B32", "#A3663E", "#B98855", "#C9A466",
+           "#D4BB6F", "#738664", "#5C4966", "#6D4254"),
   nodoubt = c("#2D4F81" ,"#5BB0BB", "#87A884", "#A93842", "#BA8E53",
               "#7C5A72", "#ABBE7A", "#4D4574","#81A591"),
   sclub7 = c("#945644","#C59F6F", "#9E8F64", "#5D6B58", "#496569",
@@ -22,7 +20,9 @@ pop_palettes <- list(
   spice = c("#C39384", "#DAC191", "#E8DE97", "#DDE4A2", "#B5D8C6",
             "#ABCEDF", "#BBC2E1", "#E0BFDF", "#CC798C"),
   steps = c("#A65A57", "#D18C7E", "#F2BEA3", "#E5DFBD", "#85BACB",
-            "#8895C4", "#BB6CA6", "#BA638C", "#9B535A")
+            "#8895C4", "#BB6CA6", "#BA638C", "#9B535A"),
+  secret = c( "#1E3850" ,"#39315E", "#ECC639", "#E15368", "#E76A42" ,
+              "#97548E", "#364A32", "#644278","#2A3E32")
 
 )
 
@@ -37,8 +37,8 @@ pop_palettes <- list(
 #'
 #' @param name Name of palette. Select one:
 #' \code{aqua}, \code{bangles}, \code{beck}, \code{boo},
-#' \code{breeders}, \code{bwitched}, \code{deeelite},\code{hole},
-#'  \code{nodoubt}, \code{sclub7}, \code{spice},\code{steps}
+#' \code{bwitched}, \code{deeelite},\code{hole}, \code{nodoubt},
+#'  \code{sclub7}, \code{spice},\code{steps}, \code{secret}
 #'
 #' @param n Number of colors desired.
 #'
