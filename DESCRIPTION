@@ -6,9 +6,9 @@ Authors@R:
            family = "MacKintosh",
            role = c("aut", "cre"),
            email = "johnmackintosh.jm@gmail.com")
-Description: colour palettes for fun based on pop album and single covers. 
- Here's some more words to make another sentence.  
-License: AGPL (>= 3)
+Description: colour palettes based on pop album and single covers. 
+ Contains a mix of sequential and qualitative palettes.  
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
