@@ -21,9 +21,7 @@ knitr::opts_chunk$set(
 
 ## What?
 
-This is a collection of colour palettes based on (mainly) 90s pop album covers.
-(The Bangles are in because 'Hazy Shade of Winter' absolutely rules)
-
+This is a collection of colour palettes based (mainly) on pop album covers.
 
 Featuring: 
 
@@ -44,17 +42,21 @@ Featuring:
 
 Because [I've done Metallica](https://github.com/johnmackintosh/metallicaRt) and [classic rock](https://github.com/johnmackintosh/rockthemes).
 
-Although rockthemes has some pop acts in it as well, including No Doubt and DeeeLite, who also appear here. Don't worry about it.
+The rockthemes has some pop acts featured in it as well, including No Doubt and DeeeLite. They're included here - and the palettes have been tweaked slightly.
 
 
 ## Installation
 
-This will probably not go to CRAN, so please install using the remotes package.
+This won't be appearing on CRAN, so please install using the remotes package.
 
 ```{r message=FALSE, warning=FALSE}
 #library(remotes)
 #remotes::install_github("johnmackintosh/popthemes")
 library(popthemes)
+library(ggplot2)
+library(dplyr)
+library(scales)
+library(gapminder)
 ```
 
 # Palettes 
@@ -91,21 +93,106 @@ pop_palette("steps")
 ```
 
 
+## ggplot2 use
+
+Colour and fills for ggplot2.
+
+```{r echo=FALSE, fig.height=3, fig.show="hold", fig.width=4, out.width="33%"}
+data <- gapminder::gapminder %>% 
+    filter(country %in% c("France", "Germany", "Ireland", "Italy", 
+                        "Japan", "Norway", "Belarus", "United Kingdom",
+                        "Peru"))  %>% 
+    mutate(year = as.Date(paste(year, "-01-01", sep = "", format = '%Y-%b-%d')))
+
+
+
+ggplot(data = data, aes(x = year, y = gdpPercap, fill = country)) +
+    geom_area(alpha = 0.8) +
+    theme_void() + 
+    theme(legend.position = "none") + 
+    scale_fill_aqua() + 
+    ggtitle(label = "scale_fill_aqua")  
+
+ggplot(data = data, aes(x = year, y = gdpPercap, fill = country)) +
+    geom_area(alpha = 0.8) +
+    theme_void() + 
+    theme(legend.position = "none") + 
+    scale_fill_bangles() + 
+    ggtitle(label = "scale_fill_bangles")  
+
+ggplot(data = data, aes(x = year, y = gdpPercap, fill = country)) +
+    geom_area(alpha = 0.8) +
+    theme_void() + 
+    theme(legend.position = "none") + 
+    scale_fill_beck() + 
+    ggtitle(label = "scale_fill_beck")  
+
+ggplot(data = data, aes(x = year, y = gdpPercap, fill = country)) +
+    geom_area(alpha = 0.8) +
+    theme_void() + 
+    theme(legend.position = "none") + 
+    scale_fill_boo() + 
+    ggtitle(label = "scale_fill_boo") 
+
+ggplot(data = data, aes(x = year, y = gdpPercap, fill = country)) +
+    geom_area(alpha = 0.8) +
+    theme_void() + 
+    theme(legend.position = "none") + 
+    scale_fill_bwitched() + 
+    ggtitle(label = "scale_fill_bwitched") 
+
+ggplot(data = data, aes(x = year, y = gdpPercap, fill = country)) +
+    geom_area(alpha = 0.8) +
+    theme_void() + 
+    theme(legend.position = "none") + 
+    scale_fill_deeelite() + 
+    ggtitle(label = "scale_fill_deeelite") 
+
+ggplot(data = data, aes(x = year, y = gdpPercap, fill = country)) +
+    geom_area(alpha = 0.8) +
+    theme_void() + 
+    theme(legend.position = "none") + 
+    scale_fill_hole() + 
+    ggtitle(label = "scale_fill_hole") 
+
+ggplot(data = data, aes(x = year, y = gdpPercap, fill = country)) +
+    geom_area(alpha = 0.8) +
+    theme_void() + 
+    theme(legend.position = "none") + 
+    scale_fill_nodoubt() + 
+    ggtitle(label = "scale_fill_nodoubt") 
+
+ggplot(data = data, aes(x = year, y = gdpPercap, fill = country)) +
+    geom_area(alpha = 0.8) +
+    theme_void() + 
+    theme(legend.position = "none") + 
+    scale_fill_rickroll() + 
+    ggtitle(label = "scale_fill_rickroll") 
+
+ggplot(data = data, aes(x = year, y = gdpPercap, fill = country)) +
+    geom_area(alpha = 0.8) +
+    theme_void() + 
+    theme(legend.position = "none") + 
+    scale_fill_sclub() + 
+    ggtitle(label = "scale_fill_sclub") 
+
+ggplot(data = data, aes(x = year, y = gdpPercap, fill = country)) +
+    geom_area(alpha = 0.8) +
+    theme_void() + 
+    theme(legend.position = "none") + 
+    scale_fill_spice() + 
+    ggtitle(label = "scale_fill_spice")
+
+ggplot(data = data, aes(x = year, y = gdpPercap, fill = country)) +
+    geom_area(alpha = 0.8) +
+    theme_void() + 
+    theme(legend.position = "none") + 
+    scale_fill_steps_h() + 
+    ggtitle(label = "scale_fill_steps_h")
+
+```
 
 ## Credit
 
 [Thanks to Ryo for the tvthemes package](https://github.com/Ryo-N7/tvthemes) which helped me get this off the ground quickly
-
-
-## Code of Conduct
-
-Please note that the popthemes project is released with a
-[Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this
-project you agree to abide by its terms. 
-
-
-
-## Contributing
-
-See the [Contribution guide](.github/CONTRIBUTING.md)
 

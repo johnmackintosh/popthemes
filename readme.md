@@ -9,9 +9,8 @@ popthemes
 
 ## What?
 
-This is a collection of colour palettes based on (mainly) 90s pop album
-covers. (The Bangles are in because ‘Hazy Shade of Winter’ absolutely
-rules)
+This is a collection of colour palettes based (mainly) on pop album
+covers.
 
 Featuring:
 
@@ -34,18 +33,23 @@ Because [I’ve done
 Metallica](https://github.com/johnmackintosh/metallicaRt) and [classic
 rock](https://github.com/johnmackintosh/rockthemes).
 
-Although rockthemes has some pop acts in it as well, including No Doubt
-and DeeeLite, who also appear here. Don’t worry about it.
+The rockthemes has some pop acts featured in it as well, including No
+Doubt and DeeeLite. They’re included here - and the palettes have been
+tweaked slightly.
 
 ## Installation
 
-This will probably not go to CRAN, so please install using the remotes
+This won’t be appearing on CRAN, so please install using the remotes
 package.
 
 ``` r
 #library(remotes)
 #remotes::install_github("johnmackintosh/popthemes")
 library(popthemes)
+library(ggplot2)
+library(dplyr)
+library(scales)
+library(gapminder)
 ```
 
 # Palettes
@@ -82,18 +86,14 @@ pop_palette("steps")
 
 <img src="man/figures/README-sclub-1.png" width="33%" /><img src="man/figures/README-sclub-2.png" width="33%" /><img src="man/figures/README-sclub-3.png" width="33%" />
 
+## ggplot2 use
+
+Colour and fills for ggplot2.
+
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="33%" /><img src="man/figures/README-unnamed-chunk-2-2.png" width="33%" /><img src="man/figures/README-unnamed-chunk-2-3.png" width="33%" /><img src="man/figures/README-unnamed-chunk-2-4.png" width="33%" /><img src="man/figures/README-unnamed-chunk-2-5.png" width="33%" /><img src="man/figures/README-unnamed-chunk-2-6.png" width="33%" /><img src="man/figures/README-unnamed-chunk-2-7.png" width="33%" /><img src="man/figures/README-unnamed-chunk-2-8.png" width="33%" /><img src="man/figures/README-unnamed-chunk-2-9.png" width="33%" /><img src="man/figures/README-unnamed-chunk-2-10.png" width="33%" /><img src="man/figures/README-unnamed-chunk-2-11.png" width="33%" /><img src="man/figures/README-unnamed-chunk-2-12.png" width="33%" />
+
 ## Credit
 
 [Thanks to Ryo for the tvthemes
 package](https://github.com/Ryo-N7/tvthemes) which helped me get this
 off the ground quickly
-
-## Code of Conduct
-
-Please note that the popthemes project is released with a [Contributor
-Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project
-you agree to abide by its terms.
-
-## Contributing
-
-See the [Contribution guide](.github/CONTRIBUTING.md)
