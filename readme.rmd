@@ -13,6 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
+# <img src="man/figures/logo.png" width="160px" align="right" />
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/johnmackintosh/popthemes/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/johnmackintosh/popthemes/actions/workflows/R-CMD-check.yaml)
