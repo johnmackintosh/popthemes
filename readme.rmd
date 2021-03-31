@@ -26,18 +26,18 @@ This is a collection of colour palettes based (mainly) on pop album covers.
 
 Featuring: 
 
-- Aqua 
-- Bangles
-- Beck
-- Betty Boo
-- B*Witched
-- Deee Lite
-- Hole
-- No Doubt
-- Rick Astley
-- S Club 7
-- Spice Girls
-- Steps
+- Aqua (Barbie Girl)
+- Bangles (In Your Room)
+- Beck (Midnite Vultures)
+- Betty Boo (Where Are You Baby)
+- B*Witched 
+- Deee Lite (Groove is in the Heart)
+- Kelly Clarkson  (All I Ever Wanted)
+- No Doubt  Tragic Kingdom
+- Rick Astley Never Gonna Give You Up (Remix)
+- S Club 7 (S Club)
+- Spice Girls (Spice Up Your Life)
+- Steps (Step One)
 
 ## Why?
 
@@ -79,7 +79,7 @@ pop_palette("deeelite")
 
 
 ```{r deeelite, fig.show = "hold",out.width = "33%"}
-pop_palette("hole")
+pop_palette("kelly")
 pop_palette("nodoubt")
 pop_palette("rickroll")
 ```
@@ -153,8 +153,8 @@ ggplot(data = data, aes(x = year, y = gdpPercap, fill = country)) +
     geom_area(alpha = 0.8) +
     theme_void() + 
     theme(legend.position = "none") + 
-    scale_fill_hole() + 
-    ggtitle(label = "scale_fill_hole") 
+    scale_fill_kelly() + 
+    ggtitle(label = "scale_fill_kelly") 
 
 ggplot(data = data, aes(x = year, y = gdpPercap, fill = country)) +
     geom_area(alpha = 0.8) +

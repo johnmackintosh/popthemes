@@ -11,8 +11,8 @@ pop_palettes <- list(
                 "#C89C93", "#572F58", "#71773E", "#446E80"),
   deeelite = c("#365A4C", "#473D8C", "#90D044", "#DB616D", "#64403E",
                "#5E3C80", "#9C8F42", "#8F2975", "#3A5A3C"),
-  hole = c("#67332C" ,"#904B32", "#A3663E", "#B98855", "#C9A466",
-           "#D4BB6F", "#738664", "#5C4966", "#6D4254"),
+  kelly = c("#ed5a7f" ,"#f0a93b", "#dbc83f", "#a4966a", "#60a984",
+           "#99715f", "#8b565e", "#696969", "#0b0c09"),
   nodoubt = c("#2D4F81" ,"#5BB0BB", "#87A884", "#A93842", "#BA8E53",
               "#7C5A72", "#ABBE7A", "#4D4574","#81A591"),
   rickroll = c( "#1E3850" ,"#39315E", "#ECC639", "#E15368", "#E76A42" ,
@@ -38,7 +38,7 @@ pop_palettes <- list(
 #'
 #' @param name Name of palette. Select one:
 #' \code{aqua}, \code{bangles}, \code{beck}, \code{boo},
-#' \code{bwitched}, \code{deeelite},\code{hole}, \code{nodoubt},
+#' \code{bwitched}, \code{deeelite},\code{kelly}, \code{nodoubt},
 #'  \code{rickroll},\code{sclub7}, \code{spice},\code{steps}
 #'
 #' @param n Number of colors desired.

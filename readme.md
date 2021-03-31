@@ -16,18 +16,18 @@ covers.
 
 Featuring:
 
--   Aqua
--   Bangles
--   Beck
--   Betty Boo
+-   Aqua (Barbie Girl)
+-   Bangles (In Your Room)
+-   Beck (Midnite Vultures)
+-   Betty Boo (Where Are You Baby)
 -   B\*Witched
--   Deee Lite
--   Hole
--   No Doubt
--   Rick Astley
--   S Club 7
--   Spice Girls
--   Steps
+-   Deee Lite (Groove is in the Heart)
+-   Kelly Clarkson (All I Ever Wanted)
+-   No Doubt Tragic Kingdom
+-   Rick Astley Never Gonna Give You Up (Remix)
+-   S Club 7 (S Club)
+-   Spice Girls (Spice Up Your Life)
+-   Steps (Step One)
 
 ## Why?
 
@@ -73,7 +73,7 @@ pop_palette("deeelite")
 <img src="man/figures/README-boo-1.png" width="33%" /><img src="man/figures/README-boo-2.png" width="33%" /><img src="man/figures/README-boo-3.png" width="33%" />
 
 ``` r
-pop_palette("hole")
+pop_palette("kelly")
 pop_palette("nodoubt")
 pop_palette("rickroll")
 ```
