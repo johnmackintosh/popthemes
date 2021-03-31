@@ -2,5 +2,8 @@ pandoc: 2.11.2
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles: {}
-last_built: 2021-03-31T22:30Z
+last_built: 2021-03-31T23:01Z
+urls:
+  reference: http://johnmackintosh.com/popthemes/reference
+  article: http://johnmackintosh.com/popthemes/articles
 
