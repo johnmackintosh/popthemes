@@ -2,4 +2,4 @@ url: http://johnmackintosh.com/popthemes
 
 template:
   params:
-    bootswatch: pink
+    bootswatch: Journal
